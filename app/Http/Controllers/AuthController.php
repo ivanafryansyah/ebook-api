@@ -14,6 +14,7 @@ class AuthController extends Controller
             gender : male \n
             phone : 085290091081 \n
             class : XII RPL 3");
+            
         // [
         //     "nis" => "3103118076"  , 
         //     "name" => "Ivan Afryansyah" , 
