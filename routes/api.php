@@ -25,6 +25,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 // Route::get('books/{id}','BookController@show');//show data by id (detail data)
 // Route::put('books','BookController@update');//update data
 // Route::delete('books','BookController@destroy');//delete data
-
+//books
 Route::resource('books','BookController');
-Route::resource('books/{{id}}','BookController');
+// Route::resource('books/{{id}}','BookController');
+//author
+Route::resource('authors','AuthorController');
+// Route::resource('authors/{{bigIncrement}}','AuthorController');
